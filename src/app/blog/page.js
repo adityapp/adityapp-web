@@ -19,11 +19,9 @@ export default function BlogPage(){
     })
 
     return allBlogsData.sort((a, b) => {
-      if (a.date < b.date) {
-        return 1;
-      } else {
-        return -1;
-      }
+      var c = new Date(a.date);
+      var d = new Date(b.date);
+      return d-c;
     })
   }
 

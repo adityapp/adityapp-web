@@ -29,7 +29,7 @@ export default function BlogPage(){
   }
 
   const blogPreview = getBlogMetadata().map((blog) => (
-    <Card href={`/blog/${blog.slug}`} className="max-w-3xl mt-4 bg-gray-800 border-gray-700 hover:bg-blue-500">
+    <Card key={blog.slug} href={`/blog/${blog.slug}`} className="max-w-3xl mt-4 bg-gray-800 border-gray-700 hover:bg-blue-500">
       <div className="flex flex-col">
         <h5 className="text-xl mb-1 font-medium text-white">
           {blog.title}

@@ -1,5 +1,5 @@
 import fs from "fs"
-import Markdown from 'react-markdown'
+import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
 export default function BlogContentPage(props){
@@ -13,6 +13,6 @@ export default function BlogContentPage(props){
   const content = getBlogContent(props.params.slug)
   
   return(
-    <Markdown className="text-white" remarkPlugins={[remarkGfm]}>{content}</Markdown>
+    <ReactMarkdown className="text-white" remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
   )
 }

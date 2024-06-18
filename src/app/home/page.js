@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center p-10">
@@ -7,7 +9,9 @@ export default function HomePage() {
 
       <div className="justify-center mt-10 min-w-min max-w-2xl border rounded-lg shadow bg-gray-800 border-gray-700">
         <div className="flex flex-col items-center p-10">
-          <img
+          <Image
+            width={480}
+            height={480}
             className="w-48 h-48 mb-3 rounded-full shadow-lg"
             src="/images/profile.jpg"
             alt="Bonnie image"

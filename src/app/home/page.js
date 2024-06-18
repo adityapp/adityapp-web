@@ -1,13 +1,11 @@
 export default function HomePage() {
   return (
-    <div className="flex flex-col items-center">
-      <div className="p-10">
-        <h1 className="font-extralight text-3xl text-white">
-          Welcome to My Personal Website
-        </h1>
-      </div>
+    <div className="flex flex-col items-center p-10">
+      <h1 className="font-extralight text-3xl text-white">
+        Welcome to My Personal Website
+      </h1>
 
-      <div className="justify-center m-10 min-w-min max-w-2xl border rounded-lg shadow bg-gray-800 border-gray-700">
+      <div className="justify-center mt-10 min-w-min max-w-2xl border rounded-lg shadow bg-gray-800 border-gray-700">
         <div className="flex flex-col items-center p-10">
           <img
             className="w-48 h-48 mb-3 rounded-full shadow-lg"

@@ -33,7 +33,7 @@ export default function BlogPage(){
         <h5 className="text-xl mb-1 font-medium text-white">
           {blog.title}
         </h5>
-        <p className="text-sm text-gray-400">{blog.date}</p>
+        <p className="text-sm text-gray-400"><i>Published at <b>{blog.date}</b></i></p>
         <p className="font-light mt-6 text-base text-white">
           {blog.subtitle}
         </p>
@@ -43,7 +43,7 @@ export default function BlogPage(){
 
   return(
     <div className="flex flex-col items-center p-10">
-      <h1 className="font-extralight text-3xl text-white">
+      <h1 className="font-extralight text-4xl text-white">
         Blog
       </h1>
 

@@ -16,8 +16,10 @@ export default function BlogContentPage(props){
   
   return(
     <div className="flex flex-col items-center p-10">
-      <article className="prose prose-invert content-center font-light max-w-2xl">
-        <Markdown className="text-white" remarkPlugins={[remarkGfm]}>{blog.content}</Markdown>
+      <article className="prose prose-invert content-center max-w-2xl">
+        <p className="text-sm text-gray-400"><i>Published at <b>{blog.data.date}</b></i></p>
+        <h1 className="font-extralight text-4xl text-white">{blog.data.title}</h1>
+        <Markdown className="text-white font-light " remarkPlugins={[remarkGfm]}>{blog.content}</Markdown>
       </article>
     </div>
   )

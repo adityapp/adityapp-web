@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col items-center">
       <div className="p-10">
-        <h1 className="font-extralight text-3xl">
+        <h1 className="font-extralight text-3xl text-white">
           Welcome to My Personal Website
         </h1>
       </div>
@@ -21,7 +21,7 @@ export default function HomePage() {
             Software Engineer
           </h5>
           <span className="font-light text-base mt-10 text-white">
-          Hi Folks! My name is <b className="text-lg font-normal">Adit</b>, I have been a professional Software Engineer since 2018. Before 2020, I started my career as an Android Developer, and after that, I switched my career to a Backend Engineer.
+            Hi Folks! My name is <b className="text-lg font-normal">Adit</b>, I have been a professional Software Engineer since 2018. Before 2020, I started my career as an Android Developer, and after that, I switched my career to a Backend Engineer.
           </span>
         </div>
       </div>

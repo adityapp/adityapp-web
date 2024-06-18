@@ -47,7 +47,7 @@ export default function BlogPage(){
         Blog
       </h1>
 
-      <div className="mt-4">{blogPreview}</div>
+      <div className="mt-6">{blogPreview}</div>
     </div>
   )
 }

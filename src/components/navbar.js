@@ -7,7 +7,7 @@ export default function CustomNavbar() {
       <NavbarCollapse className="mx-auto text-xl">
         <NavbarLink className="text-sm md:text-base text-white md:hover:text-blue-500 border-none hover:bg-gray-800 rounded-lg hover:text-blue-500" href="/home">Home</NavbarLink>
         <NavbarLink className="text-sm md:text-base text-white md:hover:text-blue-500 border-none hover:bg-gray-800 rounded-lg hover:text-blue-500" href="/blog">Blog</NavbarLink>
-        <NavbarLink className="text-sm md:text-base text-white md:hover:text-blue-500 border-none hover:bg-gray-800 rounded-lg hover:text-blue-500" href="/about">About</NavbarLink>
+        <NavbarLink className="text-sm md:text-base text-white md:hover:text-blue-500 border-none hover:bg-gray-800 rounded-lg hover:text-blue-500" href="/experience">Experience</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

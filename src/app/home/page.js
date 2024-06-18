@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Footer } from "flowbite-react";
+import { BsLinkedin, BsGithub, BsInstagram, BsTwitter, BsGoogle } from "react-icons/bs";
 
 export default function HomePage() {
   return (
@@ -19,10 +21,17 @@ export default function HomePage() {
           <h5 className="mb-1 text-xl font-medium text-white">
             Aditya Putra Pratama
           </h5>
-          <h5 className="mb-1 text-sm text-gray-400">
+          <h5 className="text-sm text-gray-400">
             Software Engineer
           </h5>
-          <span className="font-light text-base mt-10 text-white">
+          <div className="mt-4 flex space-x-6 sm:justify-center">
+            <Footer.Icon href="https://github.com/adityapp" icon={BsGithub}/>
+            <Footer.Icon href="https://instagram.com/ad11tyapp" icon={BsInstagram} />
+            <Footer.Icon href="https://x.com/ad1tyapp" icon={BsTwitter} />
+            <Footer.Icon href="https://linkedin.com/in/adityapp" icon={BsLinkedin} />
+            <Footer.Icon href="mailto:aditpp97@gmail.com" icon={BsGoogle} />
+          </div>
+          <span className="font-light text-base mt-12 text-white">
             Hi Folks! My name is <b className="text-lg font-normal">Adit</b>, I have been a professional Software Engineer since 2018. Before 2020, I started my career as an Android Developer, and after that, I switched my career to a Backend Engineer.
           </span>
         </div>

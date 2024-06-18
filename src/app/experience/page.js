@@ -35,7 +35,7 @@ export default function AboutPage(){
                   <ListItem> Part of the team in charge of developing Everywhere for Business.</ListItem>
                 </List>
               </TimelineBody>
-              <b className="font-normal"><i>Tech stack: Go, Ruby, PostgreSQL, Redis, Elasticsearch, MongoDB</i></b>
+              <b className="font-normal text-white"><i>Tech stack: Go, Ruby, PostgreSQL, Redis, Elasticsearch, MongoDB</i></b>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem className="pb-6">
@@ -56,7 +56,7 @@ export default function AboutPage(){
                   <ListItem>Develop Play Everywhere Box an interactive live streaming device with a camera and microphone, so visitors and performers can two-way communication.</ListItem>
                 </List>
               </TimelineBody>
-              <b className="font-normal"><i>Tech stack: Go, Ruby, PostgreSQL, Redis, Elasticsearch, MongoDB</i></b>
+              <b className="font-normal text-white"><i>Tech stack: Go, Ruby, PostgreSQL, Redis, Elasticsearch, MongoDB</i></b>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem className="pb-6">
@@ -74,7 +74,7 @@ export default function AboutPage(){
                   <ListItem>Ensured Unit Test coverage from 32% to above 90%.</ListItem>
                 </List>
               </TimelineBody>
-              <b className="font-normal"><i>Tech stack: Java, Kotlin, JUnit, Mockito, MVP Design Pattern</i></b>
+              <b className="font-normal text-white"><i>Tech stack: Java, Kotlin, JUnit, Mockito, MVP Design Pattern</i></b>
             </TimelineContent>
           </TimelineItem>
         </Timeline>

@@ -12,7 +12,6 @@ export default function BlogPage(){
       const fileContents = fs.readFileSync(`${folder}${fileName}`, 'utf8')
       const matterResult = matter(fileContents)
       const slug = fileName.replace(".md", "")
-  
       return {
         slug,
         ...matterResult.data,

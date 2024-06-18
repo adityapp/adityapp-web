@@ -1,12 +1,12 @@
 ---
   title: "Proudest Moment  -  Start 2020 with luck"
   subtitle: "Hi, this time I wanna share with you all about the proudest moment in my life until now. I have had two lucks at the beginning years, first ones, I finished my studies in 3,5 years, and second ones, I got jobs in one of a big company in Indonesia."
-  date: "June 3, 2024"
+  date: "March 16, 2020"
 ---
 
 Hi, this time I wanna share with you all about the proudest moment in my life until now. I have had two lucks at the beginning years, first ones, I finished my studies in 3,5 years, and second ones, I got jobs in one of a big company in Indonesia.
 
-### Finished my studies in 3,5 years.
+## Finished my studies in 3,5 years.
 
 I'm a college student at Brawijaya University, located in Malang city, East Java far away from my family. You know the most tiring moment of finishing my undergraduate thesis is very difficult to meet my lecturer. I think most students also feel what I feel.
 That moment starts in mid-2019 (specifically in the 7th semester). I start to write my undergraduate thesis and my final project. Every day I'm waiting for my lecturer in front of the lecturer room, from 10 AM until 4 PM. There is no day without revision ☹️, but yeaaah, hard work will not betray the results.
@@ -15,7 +15,7 @@ That moment starts in mid-2019 (specifically in the 7th semester). I start to wr
 
 ![Yudisium FILKOM UB 2020](/images/yudisium.jpeg)
 
-### Join to Gojek Indonesia as Go-Troop
+## Join to Gojek Indonesia as Go-Troop
 
 Started in November 2019, I start my journey through Campus Hiring Surabaya. From Malang, I with my friend riding a motorcycle to go to Surabaya. On Saturday, we start with the Pair Programming session with Gojek Engineer. Damn, I'm so nervous, It's the first time I try to pair programming. I try to calm and just do what I can do.
 

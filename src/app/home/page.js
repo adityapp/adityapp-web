@@ -15,7 +15,7 @@ export default function HomePage() {
             width={480}
             height={480}
             className="w-48 h-48 mb-3 rounded-full shadow-lg"
-            src="/images/profile.jpg"
+            src="/profile.jpg"
             alt="Bonnie image"
           />
           <h5 className="mb-1 text-xl font-medium text-white">

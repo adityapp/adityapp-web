@@ -59,7 +59,7 @@ export default function AboutPage(){
               <b className="font-normal text-white"><i>Tech stack: Go, Ruby, PostgreSQL, Redis, Elasticsearch, MongoDB</i></b>
             </TimelineContent>
           </TimelineItem>
-          <TimelineItem className="pb-6">
+          <TimelineItem>
             <TimelinePoint />
             <TimelineContent>
               <div className="flex flex-row justify-between">

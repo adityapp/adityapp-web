@@ -48,7 +48,7 @@ export default function AboutPage(){
               <TimelineTitle className="text-white text-xl font-medium"><b>Gojek</b> - <i className="font-extralight">Software Engineer (Backend)</i></TimelineTitle>
               <TimelineBody>
                 <List className="text-gray-200 font-extralight mt-4 text-base">
-                  <ListItem>Developed backend services for <b>GoPlay</b>, Gojek's Video-On-Demand (VOD) platform.</ListItem>
+                  <ListItem>Developed backend services for <b>GoPlay</b>, Gojek&apos;s Video-On-Demand (VOD) platform.</ListItem>
                   <ListItem>Integrated GoPlay with <b>GoFood, GoMart, Promo Bundle</b>, and other internal services.</ListItem>
                   <ListItem><b>Designed and implemented GoPlay Token</b>, a virtual currency system integrated with <b>Midtrans, App Store, and Play Store</b>, leading to a <b>70% increase in virtual gift transactions</b> and a <b>30% rise in revenue per transaction</b>. Implemented <b>double-entry bookkeeping</b> for financial accuracy.</ListItem>
                   <ListItem>Contributed to the migration from <b>VOD to a Live Streaming</b> platform using <b>Agora and RTMP protocols.</b></ListItem>

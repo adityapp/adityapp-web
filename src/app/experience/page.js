@@ -25,14 +25,14 @@ export default function AboutPage(){
                 <TimelineTime className="text-sm text-gray-400"><i>September 2023 - Present</i></TimelineTime>
                 <b className="text-sm text-gray-400">Jakarta, Indonesia</b>
               </div>
-              <TimelineTitle className="text-white text-xl font-medium"><b>Everywhere.id</b> - <i className="font-extralight">Software Engineer (Backend)</i></TimelineTitle>
+              <TimelineTitle className="text-white text-xl font-medium"><b>Everywhere.id (Previously GoPlay - Gojek Product)</b> - <i className="font-extralight">Software Engineer (Backend)</i></TimelineTitle>
               <TimelineBody>
                 <List className="text-gray-200 font-extralight mt-4 text-base">
-                  <ListItem> Everywhere.id previously is GoPlay part of Gojek Product.</ListItem>
                   <ListItem> Build monitoring and alerting to check the issues from Performer or Play Everywhere Box to notify the Operational Team about the issues.</ListItem>
-                  <ListItem> Involved in the migration of our microservice from GCP to Tencent Cloud.</ListItem>
-                  <ListItem> Drastically decreased the size of logs from ~60GB to ~20GB per day, and improved the logging system to easier error-tracking by removing useless logs and optimizing error context and message.</ListItem>
-                  <ListItem> Part of the team in charge of developing Everywhere for Business.</ListItem>
+                  <ListItem> Involved in the migration of microservices from <b>Google Cloud Platform (GCP) to Tencent Cloud</b>, optimizing infrastructure reliability.</ListItem>
+                  <ListItem> <b>Optimized logging system</b>, reducing log storage from <b>~60GB to 20GB/day</b>, improving error tracking and operational efficiency</ListItem>
+                  <ListItem> Contributed to the development of <b>Everywhere for Business</b> platform.</ListItem>
+                  <ListItem> Built a <b>People Detection using Python</b> to count viewers in Play Everywhere venues.</ListItem>
                 </List>
               </TimelineBody>
               <b className="font-normal text-white"><i>Tech stack: Go, Ruby, PostgreSQL, Redis, Elasticsearch, MongoDB</i></b>
@@ -48,12 +48,12 @@ export default function AboutPage(){
               <TimelineTitle className="text-white text-xl font-medium"><b>Gojek</b> - <i className="font-extralight">Software Engineer (Backend)</i></TimelineTitle>
               <TimelineBody>
                 <List className="text-gray-200 font-extralight mt-4 text-base">
-                  <ListItem>Part of the GoPlay Team that handles VOD products.</ListItem>
-                  <ListItem>Integrate our feature with Several Internal Gojek Services (GoFood, GoMart, Promo Bundle, etc).</ListItem>
-                  <ListItem>Significantly increased 70% virtual gift transactions and 30% company revenue per transaction by building a virtual currency system such as GoPlay Token and integrating it with several payment methods (Midtrans, AppStore, and Playstore). Implement double-entry bookkeeping for the methods of recording the transaction.</ListItem>
-                  <ListItem>Involved in migrating from VOD to a Live Streaming platform using Agora and RTMP protocol.</ListItem>
-                  <ListItem>Build a multi-streaming feature and chat integration with another streaming platform (eg. Youtube, Facebook).</ListItem>
-                  <ListItem>Develop Play Everywhere Box an interactive live streaming device with a camera and microphone, so visitors and performers can two-way communication.</ListItem>
+                  <ListItem>Developed backend services for <b>GoPlay</b>, Gojek's Video-On-Demand (VOD) platform.</ListItem>
+                  <ListItem>Integrated GoPlay with <b>GoFood, GoMart, Promo Bundle</b>, and other internal services.</ListItem>
+                  <ListItem><b>Designed and implemented GoPlay Token</b>, a virtual currency system integrated with <b>Midtrans, App Store, and Play Store</b>, leading to a <b>70% increase in virtual gift transactions</b> and a <b>30% rise in revenue per transaction</b>. Implemented <b>double-entry bookkeeping</b> for financial accuracy.</ListItem>
+                  <ListItem>Contributed to the migration from <b>VOD to a Live Streaming</b> platform using <b>Agora and RTMP protocols.</b></ListItem>
+                  <ListItem>Developed <b>multi-streaming capabilities</b> and integrated real-time chat with platforms like YouTube and Facebook.</ListItem>
+                  <ListItem>Created the <b>Play Everywhere Box</b>, an interactive live-streaming device enabling two-way communication between performers and audiences.</ListItem>
                 </List>
               </TimelineBody>
               <b className="font-normal text-white"><i>Tech stack: Go, Ruby, PostgreSQL, Redis, Elasticsearch, MongoDB</i></b>
@@ -69,9 +69,9 @@ export default function AboutPage(){
               <TimelineTitle className="text-white text-xl font-medium"><b>Blibli.com</b> - <i className="font-extralight">Software Engineer Intern (Android)</i></TimelineTitle>
               <TimelineBody>
                 <List className="text-gray-200 font-extralight mt-4 text-base">
-                  <ListItem>Delivered a new feature and solved production issues on the Merchant Team.</ListItem>
-                  <ListItem>Refactoring a legacy code from Java to Kotlin.</ListItem>
-                  <ListItem>Ensured Unit Test coverage from 32% to above 90%.</ListItem>
+                  <ListItem>Developed new features and resolved production issues for the <b>Merchant Team</b>.</ListItem>
+                  <ListItem>Refactored legacy Java code to Kotlin for <b>improved maintainability.</b></ListItem>
+                  <ListItem>Increased unit test coverage from <b>32% to 90%+</b> using <b>JUnit & Mockito.</b></ListItem>
                 </List>
               </TimelineBody>
               <b className="font-normal text-white"><i>Tech stack: Java, Kotlin, JUnit, Mockito, MVP Design Pattern</i></b>

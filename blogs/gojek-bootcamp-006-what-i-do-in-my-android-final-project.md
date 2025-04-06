@@ -1,7 +1,7 @@
 ---
   title: "Gojek Bootcamp 006 - What I do in my Android Final Project?"
   subtitle: "Hello there, finally I was finished my Android Module in Gojek Bootcamp 006. Before we finished this module, we got the final project, which is we should develop Todo List Apps."
-  date: "March 25, 2020"
+  date: "April 25, 2020"
 ---
 
 Hello there, finally I was finished my Android Module in Gojek Bootcamp 006. Before we finished this module, we got the final project, which is we should develop Todo List Apps. So we should create Todo List with our version, we can implement anything that we want, but with acceptance criteria that have been specified. And now, I will share with you about my Todo List Apps, I will breakdown what I implemented in my project one by one. Let's do that!

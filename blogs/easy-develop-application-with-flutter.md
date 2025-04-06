@@ -4,7 +4,7 @@
   date: "March 9, 2020"
 ---
 
-![Flutter](/images/flutter-logo.jpg)
+![Flutter](/images/flutter-logo.png)
 
 > Flutter is open-source focusing in UI SDK create by Google, crafting beautiful and fast user interface for mobile, web, and desktop with single codebase.
 

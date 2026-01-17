@@ -1,15 +1,26 @@
-import { Navbar, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import Link from "next/link";
 
 export default function CustomNavbar() {
   return (
-    <Navbar className="bg-gray-900 py-6">
-      <NavbarToggle className="focus:outline-none focus:ring-2 hover:bg-gray-800 focus:ring-gray-600"/>
-      <NavbarCollapse className="mx-auto text-xl">
-        <NavbarLink className="text-sm md:text-base text-white md:hover:text-blue-500 border-none hover:bg-gray-800 rounded-lg hover:text-blue-500" href="/home">Home</NavbarLink>
-        <NavbarLink className="text-sm md:text-base text-white md:hover:text-blue-500 border-none hover:bg-gray-800 rounded-lg hover:text-blue-500" href="/blog">Blog</NavbarLink>
-        <NavbarLink className="text-sm md:text-base text-white md:hover:text-blue-500 border-none hover:bg-gray-800 rounded-lg hover:text-blue-500" href="/experience">Experience</NavbarLink>
-      </NavbarCollapse>
-    </Navbar>
+    <nav className="w-full bg-terminal-bg border-b border-terminal-gray/20 py-4 px-4 md:px-8 font-mono">
+      <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between">
+        <Link href="/" className="text-terminal-green text-lg font-bold hover:text-terminal-highlight">
+          <span className="text-terminal-gray">adityapp@dev:</span>~$
+        </Link>
+        
+        <div className="flex space-x-4 md:space-x-8 mt-4 md:mt-0">
+          <Link href="/home" className="text-terminal-gray hover:text-terminal-green transition-colors">
+            ~/home
+          </Link>
+          <Link href="/blog" className="text-terminal-gray hover:text-terminal-green transition-colors">
+            ~/blog
+          </Link>
+          <Link href="/experience" className="text-terminal-gray hover:text-terminal-green transition-colors">
+            ~/experience
+          </Link>
+        </div>
+      </div>
+    </nav>
   );
 }
 

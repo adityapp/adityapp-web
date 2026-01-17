@@ -1,5 +1,5 @@
 import fs from "fs"
-import { Card } from "flowbite-react";
+import Link from "next/link";
 import matter from "gray-matter"
 
 export default function BlogPage(){
@@ -25,27 +25,44 @@ export default function BlogPage(){
     })
   }
 
-  const blogPreview = getBlogMetadata().map((blog) => (
-    <Card key={blog.slug} href={`/blog/${blog.slug}`} className="max-w-3xl mt-4 bg-gray-800 border-gray-700 hover:bg-blue-500">
-      <div className="flex flex-col">
-        <h5 className="text-xl mb-1 font-medium text-white">
-          {blog.title}
-        </h5>
-        <p className="text-sm text-gray-400"><i>Published at <b>{blog.date}</b></i></p>
-        <p className="font-light mt-6 text-base text-white">
-          {blog.subtitle}
-        </p>
-      </div>
-    </Card>
-  ))
+  const blogs = getBlogMetadata();
 
   return(
-    <div className="flex flex-col items-center p-10">
-      <h1 className="font-extralight text-4xl text-white">
-        Blog
-      </h1>
+    <div className="min-h-screen p-4 md:p-10 font-mono text-terminal-gray max-w-4xl mx-auto">
+      <div className="mb-6">
+        <span className="text-terminal-green">➜</span> <span className="text-terminal-cyan">~</span> <span className="text-terminal-yellow">ls -l</span> blogs/
+      </div>
 
-      <div className="mt-6">{blogPreview}</div>
+      <div className="border border-terminal-gray/30 rounded bg-terminal-bg p-4 overflow-x-auto">
+        <div className="min-w-[600px]">
+           <div className="grid grid-cols-12 gap-4 border-b border-terminal-gray/20 pb-2 mb-2 text-sm text-terminal-gray/60 font-bold uppercase tracking-wider">
+              <div className="col-span-2">Permissions</div>
+              <div className="col-span-1">User</div>
+              <div className="col-span-1">Size</div>
+              <div className="col-span-2">Date</div>
+              <div className="col-span-6">Name</div>
+           </div>
+           
+           {blogs.map((blog) => (
+             <div key={blog.slug} className="grid grid-cols-12 gap-4 py-2 hover:bg-terminal-gray/10 rounded transition-colors group">
+               <div className="col-span-2 text-xs font-mono opacity-70">-rw-r--r--</div>
+               <div className="col-span-1 text-xs opacity-70">adit</div>
+               <div className="col-span-1 text-xs opacity-70">4.0K</div>
+               <div className="col-span-2 text-xs opacity-70">{blog.date}</div>
+               <div className="col-span-6">
+                 <Link href={`/blog/${blog.slug}`} className="text-terminal-cyan group-hover:text-terminal-green group-hover:underline block truncate">
+                   {blog.title}
+                 </Link>
+                 <div className="text-xs text-terminal-gray/50 truncate">{blog.subtitle}</div>
+               </div>
+             </div>
+           ))}
+           
+           <div className="mt-4 text-xs text-terminal-gray/40">
+             Total {blogs.length} files
+           </div>
+        </div>
+      </div>
     </div>
   )
 }

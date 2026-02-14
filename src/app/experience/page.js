@@ -3,10 +3,21 @@ import Link from "next/link";
 export default function AboutPage(){
   const experiences = [
     {
+      company: "Superbank",
+      role: "Software Engineer (Backend)",
+      startDate: "July 2025",
+      endDate: "Present",
+      location: "Jakarta, Indonesia",
+      description: [
+        "TBD",
+      ],
+      techStack: ["Golang", "MySQL", "Redis"]
+    },
+    {
       company: "Everywhere.id",
       role: "Software Engineer (Backend)",
       startDate: "September 2023",
-      endDate: "Present",
+      endDate: "March 2025",
       location: "Jakarta, Indonesia",
       description: [
         "Build monitoring and alerting to check the issues from Performer or Play Everywhere Box to notify the Operational Team about the issues.",
@@ -15,7 +26,7 @@ export default function AboutPage(){
         "Contributed to the development of Everywhere for Business platform.",
         "Built a People Detection using Python to count viewers in Play Everywhere venues."
       ],
-      techStack: ["Go", "Ruby", "PostgreSQL", "Redis", "Elasticsearch", "MongoDB"]
+      techStack: ["Golang", "Ruby", "PostgreSQL", "Redis", "Elasticsearch", "MongoDB"]
     },
     {
       company: "Gojek",
